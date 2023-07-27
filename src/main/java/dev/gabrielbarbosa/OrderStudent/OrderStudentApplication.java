@@ -23,7 +23,14 @@ public class OrderStudentApplication implements CommandLineRunner {
 		//Entrada 1
 		Order orderOne = new Order(1034, 150.00, 20.0);
 		System.out.println("Pedido código " + orderOne.getCode());
-		System.out.println("Valor total: R$" + orderService.total(orderOne));
+		System.out.printf("Valor total: R$ %.2f%n", orderService.total(orderOne));
+
+		System.out.println();
+
+		//Entrada 2
+		Order orderTwo = new Order(2282, 800.00, 10.0);
+		System.out.println("Pedido código " + orderTwo.getCode());
+		System.out.printf("Valor total: R$ %.2f%n", orderService.total(orderTwo));
 
 	}
 
