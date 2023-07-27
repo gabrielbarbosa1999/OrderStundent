@@ -1,8 +1,8 @@
 
 # OrderStundent
 
-DESAFIO: Componentes e injeção de dependência
-Desafio realizado para o curso Java Spring Ultimate da DevSuperior, este desafio e necessário para adquirir o certificado do curso.
+DESAFIO: Componentes e injeção de dependência<br/>
+Desafio realizado no curso Java Spring Ultimate da DevSuperior, este desafio e necessário para adquirir o certificado do curso.
 
 
 ## Sobre o Desafio
